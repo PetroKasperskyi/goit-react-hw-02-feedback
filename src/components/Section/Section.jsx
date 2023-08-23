@@ -1,9 +1,9 @@
-import { Wrapper } from "./Section.styled";
+import { Wrapper, SectionHeader } from "./Section.styled";
 
 export function Section({ title, children }) {
   return (
     <Wrapper>
-      <h2>{title}</h2>
+      <SectionHeader>{title}</SectionHeader>
       {children}
     </Wrapper>
   );

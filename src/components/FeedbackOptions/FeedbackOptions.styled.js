@@ -3,12 +3,10 @@ import styled from 'styled-components';
 
 export const ButtonList = styled.div`
  display: flex;
-  gap: 20px;
+  gap: 40px;
   align-items: center;
+  
 
-   :hover {
-    background-color: blueviolet;
-}
   
   `
 
@@ -17,5 +15,8 @@ border-radius: 10px;
 padding: 4px;
 color: bisque;
   background-color: blue;
+   &:hover {
+    background-color: blueviolet;
+}
  
 `
